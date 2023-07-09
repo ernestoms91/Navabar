@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { NavLink, Router } from "react-router-dom";
+import React, {  useState } from "react";
 import Logo from "./logo.png";
 import DropDown from "./DropDown";
 
@@ -77,7 +76,6 @@ const navbar = {
 
 const Navbar3 = () => {
   const [active, setActive] = useState<boolean>(false);
-  const [navrole, setNavrole] = useState<string[2][0]>();
 
   const arreglo = [
     "String1",
